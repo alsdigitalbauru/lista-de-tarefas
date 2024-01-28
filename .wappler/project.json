@@ -1,0 +1,39 @@
+{
+  "projectName": "listadetarefas2",
+  "styleFile": "/css/style.css",
+  "assetsFolder": "/assets",
+  "designFramework": "bootstrap5",
+  "frameworks": [
+    {
+      "name": "fontawesome_5",
+      "type": "cdn"
+    },
+    {
+      "name": "bootstrap5",
+      "type": "local"
+    },
+    {
+      "name": "appConnect",
+      "type": "local"
+    }
+  ],
+  "hostingType": "wappler",
+  "projectServerModel": "PHP",
+  "runtime": "capacitor",
+  "webRootFolder": "/www",
+  "useComposer": true,
+  "targets": [
+    {
+      "name": "Development",
+      "remoteURL": "http://localhost:3000/",
+      "access": "local",
+      "localFolder": "file:///C:/Users/alsdi/Desktop/CURSO%20WAPPLER%206%20START%202024/Projetos/listadetarefas",
+      "targetType": "wappler"
+    }
+  ],
+  "activeTarget": "Development",
+  "useRouting": true,
+  "addBase": true,
+  "routingHandler": "apache",
+  "projectType": "web"
+}
